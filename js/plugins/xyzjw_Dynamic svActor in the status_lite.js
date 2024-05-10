@@ -115,7 +115,7 @@ Scene_Status.prototype.createSvShadow = function() {
 	
 	//定義 sprite, bitmap, x, y
 	this._shadowSprite = new Sprite_Base();
-	this._shadowSprite.bitmap = ImageManager.loadSystem('shadow2');
+	this._shadowSprite.bitmap = ImageManager.loadSystem('Shadow2');
         this._shadowSprite.x = 830;           
 	this._shadowSprite.y = 403;           
 	this.addChild(this._shadowSprite);    //最先添加的子元素，所以會位於最下方
