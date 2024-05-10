@@ -1,0 +1,12 @@
+{
+    "name": "Children's Big Adventure",
+    "main": "index.html",
+    "js-flags": "--expose-gc",
+    "window": {
+        "title": "",
+        "toolbar": false,
+        "width": 1020,
+        "height": 642,
+        "icon": "icon/icon.png"
+    }
+}
